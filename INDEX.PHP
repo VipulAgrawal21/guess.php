@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Make sure the title contains the required string -->
     <title>VIPUL AGRAWAL af97a874</title>
 </head>
 <body>
@@ -33,6 +34,5 @@
         echo "Missing guess parameter <br> Your guess is too short";
     }
     ?>
-
 </body>
 </html>
