@@ -1,6 +1,7 @@
 <html>
 <body>
-<title> VIPUL AGRAWAL af97a874 (TYPE YOUR NAME AS TITLE )</title>
+<title> VIPUL AGRAWAL 
+af97a874 </title>
 <h1> Welcome to my guessing game</h1>
 
 <?php
