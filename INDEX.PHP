@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Make sure the title contains the required string -->
-    <title>VIPUL AGRAWAL af97a874</title>
+    <!-- Title contains required string -->
+    <title>Vipul Agrawal af97a874</title>
 </head>
 <body>
     <h1>Welcome to my guessing game</h1>
 
     <?php
-    // Set the correct number to 30 as per the assignment requirement
+    // Set the correct number to 30 as required
     $correctnumber = 30;
 
-    // Check if the 'guess' parameter is present in the URL
+    // Check if the 'guess' parameter exists
     if (isset($_GET['guess'])) {
-        // If the guess is not a number
+        // Check if the guess is a valid number
         if (!is_numeric($_GET['guess'])) {
             echo "Your guess is not a number";
-        }
-        // If the guess is lower than the correct number
+        } 
+        // Check if the guess is too low
         else if ($_GET['guess'] < $correctnumber) {
             echo "Your guess is too low";
-        }
-        // If the guess is higher than the correct number
+        } 
+        // Check if the guess is too high
         else if ($_GET['guess'] > $correctnumber) {
             echo "Your guess is too high";
-        }
-        // If the guess is exactly correct
+        } 
+        // If the guess is correct
         else if ($_GET['guess'] == $correctnumber) {
             echo "Congratulations - You are right";
         }
