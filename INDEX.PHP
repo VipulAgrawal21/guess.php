@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Guessing Game for af97a874 Vipul Agrawal</title>
+<title> af97a874</title>
 </head>
 <body>
 <h1>Welcome to my guessing game</h1>
